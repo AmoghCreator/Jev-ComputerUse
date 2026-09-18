@@ -1,0 +1,37 @@
+{
+  "task": "Open Nautilus file manager to home directory",
+  "steps": [
+    {
+      "id": 1,
+      "action": "launch_app",
+      "target": "nautilus",
+      "text": "",
+      "key": "",
+      "success_condition": "A Nautilus file manager window is visible"
+    },
+    {
+      "id": 2,
+      "action": "press_key",
+      "target": "",
+      "text": "",
+      "key": "ctrl+shift+n",
+      "success_condition": "A new folder dialog appears"
+    },
+    {
+      "id": 3,
+      "action": "type_text",
+      "target": "",
+      "text": "test_folder",
+      "key": "",
+      "success_condition": "The text test_folder is typed into the folder name field"
+    },
+    {
+      "id": 4,
+      "action": "press_key",
+      "target": "",
+      "text": "",
+      "key": "return",
+      "success_condition": "The folder test_folder is created and visible in the file list"
+    }
+  ]
+}

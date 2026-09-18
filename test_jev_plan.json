@@ -1,0 +1,21 @@
+{
+  "task": "Test Jev element selection and decision loop",
+  "steps": [
+    {
+      "id": 1,
+      "action": "launch_app",
+      "target": "nautilus",
+      "text": "",
+      "key": "",
+      "success_condition": "A Nautilus window is active"
+    },
+    {
+      "id": 2,
+      "action": "click_element",
+      "target": "Search button or Home folder or sidebar item",
+      "text": "",
+      "key": "",
+      "success_condition": "Nautilus item is clicked"
+    }
+  ]
+}
